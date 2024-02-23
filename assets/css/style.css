@@ -1,0 +1,124 @@
+nav {
+  background-color: #333; /* Cambia el color de fondo del navbar */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white; 
+}
+Body {
+  background-color: black;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+ /* ¿Quiénes somos? */ */
+
+hr {
+    border-bottom: 0.5px solid #fff;
+    width: auto;
+}
+
+i {
+    color: #ffffff;
+}
+
+.accordion-button {
+  width: 80%;
+  height: 2.5em;
+}
+.card img {
+  height: 11em;
+
+}
+/* Estilos Destacados */
+
+.card {
+  width: 18rem;
+}
+
+.card-body {
+  background-color: #0ECAF0;
+}
+
+.card-img-top {
+      height: 180px;
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+
+/* Estilos CONTACTO */
+
+
+
+/* Estilos sección FOOTER */
+
+footer {
+  background-color: #0ECAF0;
+  max-height: fit-content;
+}
+
+#texto-footer {
+  color: #ffffff;
+  font-weight: 300;
+  display: block;
+  position: absolute;
+  font-size: x-large;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+.iconos-footer {
+  text-decoration: none;
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+/* Media queries */
+
+@media (max-width: 576px) {
+
+  #seccion2 {
+      display: none;
+  }
+
+  .card {
+      width: 416px;
+      height: auto;
+      margin: 10px auto;
+      float: none;
+  }
+
+  .card-body {
+      background-color: #0ECAF0;
+  }
+  
+  .card-img-top {
+          height: 180px;
+  }
+  
+  .card-title {
+      color: #ffffff;
+  }
+
+
+
+
+
+}
